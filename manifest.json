@@ -10,7 +10,7 @@
     "js": ["inboxsdk.js", "content.js"],
     "css": ["styles.css"],
     "run_at": "document_end"
-  }], 
+  }],
   "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com; object-src 'self'",
   "permissions": [
     "storage",
