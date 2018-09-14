@@ -1,0 +1,32 @@
+{
+  "name": "Gmail Sender Icons",
+  "description": "Show sender favicons for email messages in Gmail and Google Inbox",
+  "version": "2.0",
+  "content_scripts": [{
+    "matches": [
+      "https://mail.google.com/*",
+      "https://inbox.google.com/*"
+    ],
+    "js": ["inboxsdk.js", "content.js"],
+    "css": ["styles.css"],
+    "run_at": "document_end"
+  }], 
+  "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com; object-src 'self'",
+  "permissions": [
+    "storage",
+    "https://mail.google.com/",
+    "https://inbox.google.com/"
+  ],
+  "manifest_version": 2,
+  "short_name": "GmailSenderIcons",
+  "author": "Digital Inspiration",
+  "homepage_url": "https://digitalinspiration.com/",
+  "web_accessible_resources": [
+    "*"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Show sender icons in Gmail",
+    "default_popup": "options.html"
+  }
+}
