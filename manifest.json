@@ -1,11 +1,10 @@
 {
   "name": "Gmail Sender Icons",
-  "description": "Show sender favicons for email messages in Gmail and Google Inbox",
-  "version": "2.0",
+  "description": "Quickly identify the sender of email messages in Gmail without opening the message.",
+  "version": "2.1",
   "content_scripts": [{
     "matches": [
-      "https://mail.google.com/*",
-      "https://inbox.google.com/*"
+      "https://mail.google.com/*"
     ],
     "js": ["inboxsdk.js", "content.js"],
     "css": ["styles.css"],
@@ -14,8 +13,7 @@
   "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com; object-src 'self'",
   "permissions": [
     "storage",
-    "https://mail.google.com/",
-    "https://inbox.google.com/"
+    "https://mail.google.com/"
   ],
   "manifest_version": 2,
   "short_name": "GmailSenderIcons",
@@ -28,5 +26,11 @@
     "default_icon": "icon.png",
     "default_title": "Show sender icons in Gmail",
     "default_popup": "options.html"
+  },
+  "icons": {
+    "32": "icon.png",
+    "64": "icon.png",
+    "128": "icon.png",
+    "256": "icon.png"
   }
 }

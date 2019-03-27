@@ -1,4 +1,4 @@
-InboxSDK.load('2', 'sdk_EmailfromSender_45dd694612').then(function (sdk) {
+InboxSDK.load('2', 'sdk_SenderIcons_ad562b5c66').then(function (sdk) {
 	var userEmailAddress = sdk.User.getEmailAddress();
 	chrome.storage.sync.get({
 		icons: true,

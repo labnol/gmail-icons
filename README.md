@@ -3,7 +3,7 @@
 
 ## Gmail Sender Icons
 
-[**Gmail Sender Icons**](https://chrome.google.com/webstore/detail/gmail-sender-icons/jniljaamodclkmphgkgkooplflhkadpg?hl=en) adds an icon for the sender's domain in your Gmail and Google inbox making it easy for you to visually identify the sender of the email.
+[**Gmail Sender Icons**](https://chrome.google.com/webstore/detail/gmail-sender-icons/jniljaamodclkmphgkgkooplflhkadpg?hl=en) adds an icon for the email sender's domain in your Gmail inbox making it easy for you to visually and quickly identify the sender of the email.
 
 ## Email Studio for Gmail
 
