@@ -7,10 +7,8 @@
 
 ## Email Studio for Gmail
 
-Gmail Sender Icons is part of the [**Email Studio**](https://gsuite.google.com/marketplace/app/email_studio_for_gmail/60106804857) suite for Gmail.  The suite includes Mail Merge, Email Scheduler for sending emails later, Auto Responder for sending smart auto-replies and Email Forwarder for auto-forwarding emails to another address.  
-
-Email Studio works inside the Gmail website and the Gmail App for Android. 
+Gmail Sender Icons is part of the [**Email Studio**](https://emailstudio.pro) suite for Gmail.  The suite includes Mail Merge, Email Scheduler for sending emails later, Auto Responder for sending smart auto-replies and Email Forwarder for auto-forwarding emails to another address.  
 
 ## The Developer
 
-Gmail Studio is developed by [Amit Agarwal](https://digitalinspiration.com/google-developer) 👋 for [Digital Inspiration](https://digitalinspiration.com/).
+Gmail Studio is developed by [Amit Agarwal](https://www.labnol.org) 👋 for [Digital Inspiration](https://digitalinspiration.com/).
