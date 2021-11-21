@@ -18,12 +18,9 @@ InboxSDK.load('2', 'sdk_SenderIcons_ad562b5c66').then(function (sdk) {
 						}
 					}
 					var domain = email.toLowerCase().split("@")[1];
-					var parts = domain.split(".");
-					var len = parts.length;
-					if (len > 2) {
-						if (["com", "org", "io", "net"].indexOf(parts[len - 1]) !== -1) {
-							domain = parts[len - 2] + "." + parts[len - 1];
-						}
+					var match = domain.match(/\w+\.\w{2,3}(\.\w{2})?$/);
+					if (match) {
+						domain = match[0];
 					}
 					var options = {};
 					if (items.icons) {

@@ -1,7 +1,7 @@
 {
   "name": "Gmail Sender Icons",
   "description": "Quickly identify the sender of email messages in Gmail without opening the message.",
-  "version": "2.1",
+  "version": "2.2",
   "content_scripts": [{
     "matches": [
       "https://mail.google.com/*"
