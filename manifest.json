@@ -1,7 +1,7 @@
 {
-  "name": "Gmail Sender Icons",
+  "name": "Gmail Sender Icons by Simbolic",
   "description": "Quickly identify the sender of email messages in Gmail without opening the message.",
-  "version": "2.2",
+  "version": "1.0",
   "content_scripts": [{
     "matches": [
       "https://mail.google.com/*"
@@ -10,16 +10,20 @@
     "css": ["styles.css"],
     "run_at": "document_end"
   }],
-  "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com; object-src 'self'",
+  "-content_security_policy": {
+    "extension_pages": "script-src 'self' https://cdnjs.cloudflare.com; object-src 'self'"
+  },
   "permissions": [
-    "storage",
+    "storage"
+  ],
+  "host_permissions": [
     "https://mail.google.com/"
   ],
-  "manifest_version": 2,
-  "short_name": "GmailSenderIcons",
-  "author": "Digital Inspiration",
-  "homepage_url": "https://digitalinspiration.com/",
-  "web_accessible_resources": [
+  "manifest_version": 3,
+  "short_name": "Gmail Sender Icons",
+  "author": "Simbolic",
+  "homepage_url": "https://www.simbolic.net/",
+  "-web_accessible_resources": [
     "*"
   ],
   "browser_action": {
