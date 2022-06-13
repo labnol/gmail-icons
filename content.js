@@ -22,7 +22,9 @@ InboxSDK.load('2', 'sdk_SenderIcons_ad562b5c66').then(function (sdk) {
 					if (match) {
 						domain = match[0];
 					}
-					var options = {};
+					var options = {
+						backgroundColor: 'none'
+					};
 					if (items.icons) {
 						options.iconUrl = "https://www.google.com/s2/favicons?domain=" + domain;
 					}
