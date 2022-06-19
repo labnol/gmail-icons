@@ -2,7 +2,7 @@
   "author": "Simbolic",
   "name": "Gmail Sender Icons by Simbolic",
   "description": "Quickly identify the sender of email messages in Gmail.",
-  "version": "1.0",
+  "version": "1.1",
   "background": {
     "service_worker": "background.js"
   },
