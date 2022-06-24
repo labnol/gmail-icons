@@ -1,14 +1,14 @@
 
-![Gmail Icons](/screenshot.jpg)
+![Gmail Icons](/screenshot.png)
 
-## Gmail Sender Icons
+## Gmail Sender Icons by Simbolic
 
-[**Gmail Sender Icons**](https://chrome.google.com/webstore/detail/gmail-sender-icons/jniljaamodclkmphgkgkooplflhkadpg?hl=en) adds an icon for the email sender's domain in your Gmail inbox making it easy for you to visually and quickly identify the sender of the email.
+[Gmail Sender Icons by Simbolic](https://chrome.google.com/webstore/detail/gmail-sender-icons-by-sim/nbgemdmmeiheaopanlgfgdniphldgbol) adds an icon for the email sender's domain in your Gmail inbox making it easy for you to visually and quickly identify the sender of the email.
 
-## Email Studio for Gmail
+## Attribution and Source Code
 
-Gmail Sender Icons is part of the [**Email Studio**](https://emailstudio.pro) suite for Gmail.  The suite includes Mail Merge, Email Scheduler for sending emails later, Auto Responder for sending smart auto-replies and Email Forwarder for auto-forwarding emails to another address.  
+Based on [Gmail Sender Icons](https://chrome.google.com/webstore/detail/gmail-sender-icons/jniljaamodclkmphgkgkooplflhkadpg) by [Amit Agarwal](https://www.labnol.org).
 
-## The Developer
+Forked by [Greg Bradley](https://github.com/gregbradley) to make some improvements including support for more domains.
 
-Gmail Studio is developed by [Amit Agarwal](https://www.labnol.org) 👋 for [Digital Inspiration](https://digitalinspiration.com/).
+Source code available [here](https://github.com/gregbradley/gmail-icons)
