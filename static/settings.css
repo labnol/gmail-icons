@@ -1,0 +1,126 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --background-color: #f9f9f9;
+  --text-color: #333;
+  --border-radius: 8px;
+}
+
+html {
+  min-width: 400px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--background-color);
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  color: var(--secondary-color);
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.setting {
+  margin-bottom: 20px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Custom checkbox styles */
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+input[type="checkbox"]:checked::before {
+  content: "\2714";
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#status {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e8f5e9;
+  border-radius: var(--border-radius);
+  text-align: center;
+  font-weight: bold;
+  color: #43a047;
+  display: none;
+}
+
+#help {
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+  color: #666;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+.promo-links {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f0f8ff;
+  border-radius: var(--border-radius);
+}
+
+.promo-links h4 {
+  margin-top: 0;
+  color: var(--secondary-color);
+}
+
+.promo-links ul {
+  padding-left: 20px;
+}
+
+.promo-links li {
+  margin-bottom: 10px;
+  text-align: left;
+}
